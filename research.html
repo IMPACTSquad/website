@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>IMPACT Research Group · Research</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .project-link { text-decoration: none; color: inherit; display: block; }
+    .project-link .card { height: 100%; transition: transform 0.18s ease, box-shadow 0.18s ease; }
+    .project-link .card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12); }
+    .overview-placeholder { min-height: 260px; border: 1px dashed rgba(100, 116, 139, 0.35); border-radius: 24px; background: linear-gradient(135deg, rgba(248, 250, 252, 0.9), rgba(241, 245, 249, 0.65)); display: flex; align-items: center; justify-content: center; color: var(--slate); font-size: 0.95rem; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <span class="logo-accent">◈</span> IMPACT Research Group
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="team.html">Team</a>
+      <a href="publications.html">Publications</a>
+      <a href="talks.html">Talks</a>
+      <a href="news-media.html">News &amp; Media</a>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="section">
+      <div class="section-header"><h2 class="section-title">Research Overview</h2></div>
+      <div class="overview-placeholder">Research overview image / visual summary to be added here.</div>
+    </section>
+    <section class="section">
+      <div class="section-header"><h2 class="section-title">Projects</h2></div>
+      <div class="grid grid-3">
+        <a href="project-microblast.html" class="project-link">
+          <article class="card">
+            <img src="photos/micro_blast" alt="Bridge structure" />
+            <h3>MicroBlast: Disaster Risk Assessment from Space</h3>
+            <p class="meta">EPSRC · Led by Wanli Ma</p>
+            <p>Computer vision and minimal-supervision learning approaches to assess structural damage and monitor mass movement risk using satellite and aerial imagery in disaster-affected regions.</p>
+          </article>
+        </a>
+        <a href="project-water-body-classification.html" class="project-link">
+          <article class="card">
+            <img src="photos/project_ShagunGarg.png" alt="Satellite imagery" />
+            <h3>Geospatial AI for Water Body Classification</h3>
+            <p class="meta">PhD Research · Led by Shagun Garg</p>
+            <p>Foundation model embeddings from AlphaEarth combined with leave-one-region-out validation to enable spatially transferable water body classification across diverse geographic contexts globally.</p>
+          </article>
+        </a>
+        <a href="project-search-rescue-maps.html" class="project-link">
+          <article class="card">
+            <img src="https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg" alt="Maps and planning" />
+            <h3>Reference and Preliminary Situational Awareness Maps for Search and Rescue</h3>
+            <p class="meta">Search &amp; Rescue Operations · Led by María Fernanda Lammoglia Cobo</p>
+            <p>Integrating geospatial open-source information into a user-friendly platform that generates reference and preliminary situational awareness maps in time for search and rescue deployment.</p>
+          </article>
+        </a>
+        <a href="project-soil-organic-carbon.html" class="project-link">
+          <article class="card">
+            <img src="https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg" alt="Soil and landscape" />
+            <h3>Multimodal Remote Sensing and Learning for Soil Organic Carbon Monitoring</h3>
+            <p class="meta">Remote Sensing &amp; AI · Led by Marine Mercier</p>
+            <p>Harnessing multi-source remote sensing data and AI to predict and monitor soil organic carbon stocks for scalable soil health, climate, agriculture, and carbon sequestration applications.</p>
+          </article>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    © 2026 IMPACT Research Group · Department of Engineering, University of Cambridge ·
+    <a href="mailto:ss683@cam.ac.uk">Contact</a>
+  </footer>
+</body>
+</html>
